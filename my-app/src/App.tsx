@@ -75,7 +75,7 @@ const App = () => {
                 <div className="item__header">
                   <h4 className="item__title">
                     {data.TasNo.toUpperCase()}{' '}
-                    <span className='dropdown'><AiFillCaretDown/></span>
+                    <AiFillCaretDown className="dropdown" />
                   </h4>
                    {index === currentIndex && (
                     <table className="table_chart">
